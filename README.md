@@ -44,3 +44,32 @@ int main()
     return 0;
 
 }
+
+1 to N SUM
+
+#include <stdio.h>
+int main()
+{
+    long long int x,sum=0;
+    scanf("%lld",&x);
+
+    for(int i=1;i<=x;i++)
+    {
+        sum+=i;
+    }
+    printf("%lld",sum);
+    return 0;
+}
+
+Even Number
+#include<stdio.h>
+int main()
+{
+    int n,m;
+    scanf("%d",&n);
+
+    m=(n-20)/5;
+    printf("%d %d %d %d %d",m,m+2,m+4,m+6,m+8);
+    return 0;
+
+}
