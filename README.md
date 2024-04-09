@@ -73,3 +73,17 @@ int main()
     return 0;
 
 }
+
+ODD Number
+
+#include<stdio.h>
+int main()
+{
+    int n,m;
+    scanf("%d",&n);
+
+    m=(n-16)/4;
+    printf("%d %d %d %d",m+1,m+3,m+5,m+7);
+    return 0;
+
+}
